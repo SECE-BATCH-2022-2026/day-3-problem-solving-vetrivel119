@@ -1,3 +1,4 @@
+package DAY3;
 import java.io.*;
 import java.util.*;
 
