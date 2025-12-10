@@ -1,5 +1,4 @@
 package DAY4;
-
 import java.io.*;
 
 public class pr2 {
@@ -13,7 +12,7 @@ public class pr2 {
 
     public static String repeatFront(String s, int n) {
         if (n > s.length()) {
-            n = s.length();  
+            n = s.length();  // Fix for invalid input
         }
 
         String front = s.substring(0, n);
